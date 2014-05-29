@@ -74,10 +74,9 @@ int main (void) {
     double freq, length;
     int count = 0;
     double root = 220.0;
-    length = 150.0;
+    length = 80.0;
     int scale[] = {0, 4, 5, 7, 0};
     int octaves[] = {0, 1, 2};
-    root = 80.0;
 
     while(1) {
         if(count % 4 == 0) {
